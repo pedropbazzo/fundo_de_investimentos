@@ -2,7 +2,7 @@ name: Maven Build
 on:
   push:
     branches:
-      - develop
+      - master
 jobs:
   build:
     name: "Maven Build"

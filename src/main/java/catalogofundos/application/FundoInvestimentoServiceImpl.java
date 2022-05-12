@@ -1,5 +1,7 @@
 package catalogofundos.application;
 
+
+import catalogofundos.enum;
 import java.util.List;
 import java.util.Optional;
 
@@ -20,7 +22,7 @@ public class FundoInvestimentoServiceImpl implements FundoInvestimentoService {
 	@Override
 	public FundoInvestimento adicionar(FundoInvestimento fundo) {
 		fundo.setId(0);
-		FundoInvestimento novoFundo = repository.save(fundo);
+		FundoInvestimento novoFundo = repository.save(Enum);
 		return novoFundo;
 	}
 	
